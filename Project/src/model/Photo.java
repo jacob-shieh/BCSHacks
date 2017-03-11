@@ -236,6 +236,12 @@ public class Photo {
         }
     }
 
+    public String rbgToHex(int x, int y) {
+        Color rgb = new Color(image.getRGB(x, y));
+        String hex = String.format("#%02x%02x%02x", rgb.getRed(), rgb.getGreen(), rgb.getBlue());
+        return hex;
+    }
+
     @Override
     public String toString(){
         return "Photo(" + name + ")";
