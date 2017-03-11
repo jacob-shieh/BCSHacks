@@ -8,18 +8,6 @@ import java.io.IOException;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashSet;
-import java.util.Set;package ca.ubc.cs.cpsc210.photo;
-
-import ca.ubc.cs.cpsc210.utility.Thumbnail;
-
-import javax.imageio.ImageIO;
-import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
-import java.util.Collections;
-import java.util.Date;
-import java.util.HashSet;
 import java.util.Set;
 
 
